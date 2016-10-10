@@ -28,7 +28,7 @@ If required for convenience, it can be embedded to a context menu action. For th
 Git clone or download the zip file and extract. As a normal (non-root) user, run these commands in a terminal:
 ```
 mkdir -p ~/.fix-greek-subs ~/.local/share/kservices5/ServiceMenus
-cd <location-of-the-extracted-files>
+cd <location-of-the-extracted-files> # if you are not there already
 cp fix-greek-subs.sh ~/.fix-greek-subs/
 cp fix-greek-subs.desktop ~/.local/share/kservices5/ServiceMenus/
 ```
