@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Service
+X-KDE-ServiceTypes=KonqPopupMenu/Plugin,inode/directory
+Actions=fixgreeksubs;
+
+[Desktop Action fixgreeksubs]
+Name=Fix all GREEK subtitles (.srt) in folder
+Name[el]=Διόρθωση όλων των ΕΛΛΗΝΙΚΩΝ υπότιτλων (.srt) στο φάκελο
+Icon=kate
+Exec=/bin/sh ~/.fix-greek-subs/fix-greek-subs.sh '%f'
