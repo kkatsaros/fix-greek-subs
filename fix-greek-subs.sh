@@ -4,7 +4,7 @@
 # HEADER
 #================================================================
 #% USAGE
-#+    sh fix-greek-subs.sh [directory_name]
+#+    sh fix-greek-subs.sh [directory_name] 
 #%
 #% DESCRIPTION
 #%    A small script helping to replace invalid characters inside
