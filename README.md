@@ -29,13 +29,10 @@ where `[directory_name]` is the full path of the folder containing the subtitles
 If required for convenience, it can be embedded to a context menu action. For this to work, simply copy the script inside a `.fix-greek-subs` directory in your home folder (or inside a global location for multiuser installation), and the .desktop file at the appropriate location for context menu actions (instructions below, suggestions for more Desktop Environments or File Managers are more than welcomed).
 
 ### KDE Plasma 5 (Dolphin)
-Git clone or download the zip file and extract. As a normal (non-root) user, run these commands in a terminal:
-```
-mkdir -p ~/.fix-greek-subs ~/.local/share/kservices5/ServiceMenus
-cd <location-of-the-extracted-files> # if you are not there already
-cp fix-greek-subs.sh ~/.fix-greek-subs/
-cp fix-greek-subs.desktop ~/.local/share/kservices5/ServiceMenus/
-```
+Git clone or download the zip file and extract. As a normal (non-root) user, run installation script in a terminal:
+
+`sh install-kde5.sh`
+
 After this, open a **new instance** of Dolphin and find the folder that contains the .srt files. Right-click on it and choose `Actions` => `Fix all GREEK subtitles (.srt) in folder` (or the greek translation).
 
 ## Precautions
