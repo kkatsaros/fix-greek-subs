@@ -3,8 +3,8 @@
 #================================================================
 # HEADER
 #================================================================
-#% SYNOPSIS
-#+    ${SCRIPT_NAME} [directory_name]
+#% USAGE
+#+    sh fix-greek-subs.sh [directory_name]
 #%
 #% DESCRIPTION
 #%    A small script helping to replace invalid characters inside
@@ -15,7 +15,7 @@
 #%    
 #================================================================
 #- IMPLEMENTATION
-#-    version         ${SCRIPT_NAME}  0.1
+#-    version         0.1
 #-    author          Kostas Katsaros
 #-    copyright       Copyright 2016 (c) Kostas Katsaros
 #-    license         GNU General Public License (GPL) 3.0
