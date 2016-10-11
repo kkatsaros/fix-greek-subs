@@ -19,10 +19,12 @@ Common command line tools have been used, in order for the depentencies to be mi
 
 ## Installation
 fix-greek-subs is a "standalone" solution with the following simple syntax:
-> `sh fix-greek-subs.sh [directory_name]`
+
+`sh fix-greek-subs.sh [directory_name]`
 
 where `[directory_name]` is the full path of the folder containing the subtitles to be processed, e.g.:
-> `sh fix-greek-subs.sh /home/kostas/Videos/Comedies`
+
+`sh fix-greek-subs.sh /home/kostas/Videos/Comedies`
 
 If required for convenience, it can be embedded to a context menu action. For this to work, simply copy the script inside a `.fix-greek-subs` directory in your home folder (or inside a global location for multiuser installation), and the .desktop file at the appropriate location for context menu actions (instructions below, suggestions for more Desktop Environments or File Managers are more than welcomed).
 
